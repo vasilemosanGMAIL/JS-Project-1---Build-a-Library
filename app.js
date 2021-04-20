@@ -24,7 +24,8 @@ class Media {
     for (let i in this._ratings) {
       sum = sum + this._ratings[i];
     }
-    console.log(`Average rating is: ${sum / this._ratings.length}`);
+    return `Average rating is: ${sum / this._ratings.length}`;
+    //return sum / this._ratings.length;
   }
 
   toggleCheckOutStatus() {
@@ -100,8 +101,8 @@ myBook.addRating(5);
 myBook.addRating(6);
 myBook.addRating(10);
 console.log(myBook.ratings);
-myBook.getAverageRating();
-//console.log(myBook);
+//myBook.getAverageRating();
+console.log(myBook.getAverageRating());
 
 console.log(myMovie);
 myMovie.addRating(5);
