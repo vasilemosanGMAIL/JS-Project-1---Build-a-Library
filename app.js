@@ -92,7 +92,7 @@ const myMovie = new Movie({
 });
 
 const myCD = new CD({
-  title: "Star Wars - Darth Bane: Dynasty of Evilo",
+  title: "Star Wars - Darth Bane: Dynasty of Evil",
   artist: "Drew Karpyshyn",
 });
 
