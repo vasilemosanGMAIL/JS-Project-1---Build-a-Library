@@ -79,22 +79,22 @@ class CD extends Media {
   }
 }
 
-const myBook = new Book({
-  title: "Star Wars - Darth Bane: Path of Destruction",
-  author: "Drew Karpyshyn",
-  pages: 389,
-});
+const myBook = new Book(
+  "Star Wars - Darth Bane: Path of Destruction",
+  "Drew Karpyshyn",
+  389
+);
 
-const myMovie = new Movie({
-  title: "Star Wars - Darth Bane: Rule of Two",
-  director: "Drew Karpyshyn",
-  runTime: 120,
-});
+const myMovie = new Movie(
+  "Star Wars - Darth Bane: Rule of Two",
+  "Drew Karpyshyn",
+  120
+);
 
-const myCD = new CD({
-  title: "Star Wars - Darth Bane: Dynasty of Evil",
-  artist: "Drew Karpyshyn",
-});
+const myCD = new CD(
+  "Star Wars - Darth Bane: Dynasty of Evil",
+  "Drew Karpyshyn"
+);
 
 console.log(myBook);
 myBook.addRating(5);
